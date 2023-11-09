@@ -4,9 +4,9 @@
 #define BaseDir "..\..\src"
 #define GreenshotProjectDir "..\..\src\Greenshot"
 #define LanguagesDir "..\..\src\Greenshot\Languages"
-#define BinDir "bin\Release\net472"
-#define ReleaseDir "..\..\src\Greenshot\bin\Release\net472"
-#define PluginDir "..\..\src\Greenshot\bin\Release\net472\Plugins"
+#define BinDir "bin\ARM64\Release\net481"
+#define ReleaseDir "..\..\src\Greenshot\bin\ARM64\Release\net481"
+#define PluginDir "..\..\src\Greenshot\bin\ARM64\Release\net481\Plugins"
 
 ; Include the scripts to install .NET Framework
 ; See https://www.codeproject.com/KB/install/dotnetfx_innosetup_instal.aspx
@@ -123,7 +123,7 @@ AppSupportURL=https://getgreenshot.org
 AppUpdatesURL=https://getgreenshot.org
 AppVerName={#ExeName} {#Version}
 AppVersion={#Version}
-ArchitecturesInstallIn64BitMode=x64
+ArchitecturesInstallIn64BitMode=arm64
 Compression=lzma2/ultra64
 SolidCompression=yes
 DefaultDirName={code:DefDirRoot}\{#ExeName}
